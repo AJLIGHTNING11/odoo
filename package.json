@@ -1,0 +1,22 @@
+{
+  "name": "odooproject",
+  "version": "1.0.0",
+  "description": "project using bootstrap v5 and sass",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Alan Escamilla",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0"
+  }
+}
